@@ -9,5 +9,6 @@ class Film {
         this.rendezo = rendezo;
         this.kiadasiEv = kiadasEve;
         this.tomb = [];
+        
     }
 }
