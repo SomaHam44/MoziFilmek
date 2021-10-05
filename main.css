@@ -5,6 +5,7 @@ div {
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
+
 }
 button {
     background-color:seashell;
@@ -12,14 +13,16 @@ button {
     font-size: 1em;
     width:100px;
     margin-bottom: 0.5em;
+    text-shadow: 1em;
     
 }
 #tabla {
-    border: 1px solid black;
+    border: 1px solid grey;
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
+    background-color:honeydew;
 
 }
 td {

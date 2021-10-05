@@ -35,11 +35,13 @@ function hozzaadas() {
     }
     tablazat += "</table>";
     document.getElementById("tabla").innerHTML = tablazat;
+    tablazat = "";
     
 }
 
 
 document.getElementById("hozza").addEventListener("click", hozzaadas);
+
 
 
 
