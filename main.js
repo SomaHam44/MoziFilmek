@@ -26,12 +26,15 @@ function hozzaadas() {
     
 }
 
+
 document.getElementById("hozza").addEventListener("click", hozzaadas);
 
 
 
 
+
 function listazas() {
+   
     let tablazat = "<table>";
     for (let i = 0; i < tomb.length; i++) {
         tablazat += "<tr>";
@@ -43,9 +46,13 @@ function listazas() {
     }
     tablazat += "</table>";
     document.getElementById("tabla").innerHTML = tablazat;
+
+    
+    
     
     
 
 }
 
 document.getElementById("listaz").addEventListener("click", listazas);
+
