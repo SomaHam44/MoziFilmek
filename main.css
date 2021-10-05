@@ -11,6 +11,7 @@ button {
     font-style: italic;
     font-size: 1em;
     width:100px;
+    margin-bottom: 0.5em;
     
 }
 #tabla {
@@ -24,7 +25,11 @@ button {
 td {
     padding: 2em;
     border-bottom: 1px solid black;
+    
 }
 table tr:nth-child(2n){
     background-color: cornsilk;
+}
+#listaz {
+    display: none;
 }
