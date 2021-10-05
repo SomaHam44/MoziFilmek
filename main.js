@@ -2,13 +2,27 @@ class Film {
     nev;
     rendezo;
     kiadasiEv;
-    tomb;
+    
 
     constructor(nev, rendezo, kiadasEve) {
         this.nev = nev;
         this.rendezo = rendezo;
         this.kiadasiEv = kiadasEve;
-        this.tomb = [];
         
+
     }
 }
+let tomb = [];
+
+function hozzaadas() {
+    let filmNev = document.getElementById("name").value;
+    let filmRendezo = document.getElementById("rendezo").value;
+    let filmKiadasiEve = document.getElementById("kiadas").value;
+    let obj = new Film(filmNev,filmRendezo,filmKiadasiEve);
+    tomb.push(obj);
+    filmNev = "";
+    filmRendezo = "";
+    filmKiadasiEve  = "";
+}
+
+document.getElementById("hozza").addEventListener("click", hozzaadas);
