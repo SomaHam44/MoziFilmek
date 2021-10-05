@@ -1,0 +1,19 @@
+div {
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+button {
+    background-color:seashell;
+    font-style: italic;
+    font-size: 1em;
+}
+body {
+    background-color:coral;
+}
+form {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    
+}
