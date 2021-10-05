@@ -30,6 +30,7 @@ document.getElementById("hozza").addEventListener("click", hozzaadas);
 
 
 
+
 function listazas() {
     let tablazat = "<table>";
     for (let i = 0; i < tomb.length; i++) {
